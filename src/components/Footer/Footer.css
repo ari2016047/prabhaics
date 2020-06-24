@@ -1,0 +1,22 @@
+
+.x1{
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.x1 h3{
+    padding-top: 20px; 
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+}
+
+.x1 h5{
+    background-color:"#206491";
+    width:100%;
+    font-size:1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

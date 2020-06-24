@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.theme-background {
+    background-color: #2980b9;
+    color: white;
+    text-align: right;
+}
+
+.theme-color {
+    color: #2980b9;
+    padding: 10px 10px;
+}
+.theme-color:hover{
+    background-color: lightblue;
+}
+
+.material-icons.md-18{
+    padding-right: 4px;
+    font-size: 1rem;
+    line-height: 1rem;
+    vertical-align: middle;
+}
+.top-contact-bar {
+    margin: 0 auto;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    max-width: 1000px;
+}
+
+.top-contact-bar .institute-number {
+    padding-right: 4px;
+}
+
+
+.nav-wrapper {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.brannd-logo{
+    color: black;
+    display: inline-flex;
+}
+.brannd-logo .institute-logo {
+    margin-right: 8px;
+    height: 55px;
+}
+
+.brannd-logo .institute-name {
+    text-decoration: none;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    margin: auto;
+    color: black;
+}
+
+.nav-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-align: center;
+}
+.nav-wrapper li {
+    display: inline-block;
+    margin: 20px;
+}
+.nav-wrapper a {
+    text-decoration: none;
+}
+.nav-wrapper a:hover,
+.nav-wrapper a:active,
+.nav-wrapper a.active{
+    color: black;
+}
+.Button {
+    background-color: #2980b9;
+    border: none;
+    color: white ;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+@media only screen and (max-width: 767px) {
+
+    .id_mobile{
+        display: none;
+    }
+}

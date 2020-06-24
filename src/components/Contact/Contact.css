@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+.se1{
+    text-align: center;
+}
+  
+  /* Create two equal columns that floats next to each other */
+  .column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column2 iframe{
+      
+  width:350px;
+  height:250px;
+  border:0;
+  border-radius: 10px;
+  }
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 750px) {
+    .column2 {
+      width: 100%;
+    }
+  }
